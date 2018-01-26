@@ -1,0 +1,25 @@
+まず最初に
+
+routes（ルーティング）が呼び出されます。
+
+そのあとにコントローラーが呼び出されます。
+そのあとに、アクションが呼び出されます。
+そのコントローラーのアクションの中でいろんな処理をします。
+
+処理がすべて終わった後、最後にビューを呼び出します。
+大通りを案内してくれる役割があります。
+細かい住所を指定してあげています。
+
+最強のルーティングは
+localhost/index.php/controller/action/引数
+
+今回行ったことは、
+
+codeigniter_study
+
+git init
+git remote add origin https://github.com/kakiikada/codeigniter_study.git
+git fetch
+git add .
+git commit -m 'first-commit'
+git push origin master
