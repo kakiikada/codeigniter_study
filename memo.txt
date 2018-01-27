@@ -23,3 +23,20 @@ git fetch
 git add .
 git commit -m 'first-commit'
 git push origin master
+
+
+<!-- 例えば、aboutページを作成してみる。 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>about</title>
+  </head>
+  <body>
+    <h1><?php $title ?> Yay!</h1>
+  </body>
+</html>
+
+こんなルーティングでアクセス可能
+localhost/hoge/index.php/view/about
